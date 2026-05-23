@@ -1,0 +1,25 @@
+conda is used to manage Python environments and packages easily, especially when different projects need different versions of Python or libraries.
+Why people use Conda
+1. Separate environments for projects
+One project may need:
+Python 3.10
+TensorFlow 2.x
+Another may need:
+Python 3.12
+Latest Django
+Conda lets you create isolated environments so packages don’t conflict.
+
+download conda->setup python path -> open in vscode
+then use command to create environment
+-->> conda create -p venv python=3.12
+
+-->> -p venv used for create environment
+
+then activate conda environment
+
+-->> conda activate venv
+
+--to generate readme file
+
+python -m jupyter nbconvert --to markdown .\Assignment1\pythonDataStructure.ipynb
+
