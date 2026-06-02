@@ -23,3 +23,9 @@ then activate conda environment
 
 python -m jupyter nbconvert --to markdown .\Assignment1\pythonDataStructure.ipynb
 
+NumPy:
+pip install -r requirement.txt
+pip install numpy
+
+To initialize own packesge: first create the package folder then create a first file with name __init__.py it help us out to define package and initializing their namespaces
+
